@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@media only screen and (max-device-width: 786px){
+  .mobilenav{
+    font-size:12px;
+    margin-left:250px;
+    padding-bottom:15px;
+  }
+  .mobilefocal{
+    padding-top:10px;
+    position: absolute;
+    width:50px;
+    height:50px;
+  }
+  .App{
+    font-family: 'Montserrat', sans-serif;
+  }
+  .right{
+    background-image:url("Focal.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+    width:100vh;
+  }
+  .left{
+    width:80%;
+    height:60%;
+    background-color:white;
+    position: absolute;
+    left:10%;
+    top:25%;
+  }
+  header{
+    padding-left:2px;
+    padding-top:5px;
+  }
+  .nav, .focal{
+    display:none;
+  }
+  .Newsletter{
+    padding-top:2px;
+    padding-left:20px;
+    margin-top:20px;
+
+  }
+  .Newsletter > p{
+    font-size:10px;
+  }
+  a{
+  color:#131821;
+  padding:5px;
+  padding-top: 30px;
+  display:inline-block;
+}
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"] + span {
+  display: inline-block;
+  position: relative;
+  top: -1px;
+  width: 20px;
+  height: 20px;
+  margin: -1px 0px 0 0;
+  vertical-align: middle;
+  background: white left top no-repeat;
+  border: 1px solid #E3E3E4;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked + span {
+  background: #4066A5 -19px top no-repeat;
+}
+
+input[type="checkbox"] + span {
+  margin-right: 4px;
+}
+.checkmark{
+  display: inline-block;
+  transform: rotate(45deg);
+  margin-left:6px;
+  height: 6px;
+  width: 5px;
+  border-bottom: 2px solid #e3e3e4;
+  border-right: 2px solid #e3e3e4;
+}
+
+input.email,input.email:focus{
+  left:5%;
+  border-left:3px solid #4066A5;
+  border-right: 1px solid #E3D3E4;
+  border-top: 1px solid #E3D3E4;
+  border-bottom: 1px solid #E3D3E4;
+  margin-bottom:20px;
+  margin-right:20px;
+  margin-top:20px;
+  height:50px;
+  width:200px;
+  position:absolute;
+}
+
+.email:hover{
+  left:5%;
+  border-left:3px solid #4066A5;
+  border-right: 1px solid #4066A5;
+  border-top: 1px solid #4066A5;
+  border-bottom: 1px solid #4066A5;
+  margin-bottom:20px;
+  margin-right:20px;
+  margin-top:20px;
+  height:50px;
+  width:200px;
+  position:absolute;
+}
+.arrow:hover{
+  color:#4066A5;
+}
+.arrow{
+  color:#E3D3E4
+}
+.submit{
+  border-left:1px solid #E3D3E4;
+  border-right: 1px solid #E3D3E4;
+  border-top: 1px solid #E3D3E4;
+  border-bottom: 1px solid #E3D3E4;
+  height:54px;
+  width:50px;
+  position:absolute;
+  margin-left:200px;
+  margin-top:20px;
+}
+.no{
+ margin-top:-100px;
+ margin-bottom:30px;
+}
+form{
+  padding-bottom:70px;
+}
+.email.invalid {
+  left:5%;
+  border-left:3px solid red;
+  border-right: 1px solid red;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  margin-bottom:20px;
+  margin-right:20px;
+  margin-top:20px;
+  height:50px;
+  width:200px;
+  position:absolute;
+  font-size:10px;
+}
+
+.checkerror{
+  position:absolute;
+  color:red;
+  top:260px;
+  font-size:10px;
+}
+.error{
+  color:red;
+  top:60px;
+  position:relative;
+  font-size:10px;
+}
+.icon{
+  text-align:center;
+}
+.checkform{
+  font-size:12px;
+}
+.facebook,.twitter,.youtube,.instagram{
+  width:40px;
+  height:40px;
+  padding-right:20px;
+}
+.youtube:hover{
+  color:#ff0000
+}
+.twitter:hover{
+  color:#55acee
+}
+.facebook:hover{
+  color:#3b5998
+}
+.instagram:hover{
+  color:#c135b4
+}
+/*socials color when pressed */
+.youtube:active{
+  color:#800101;
+}
+.twitter:active{
+  color:#336b96
+}
+.facebook:active{
+  color:#23355c
+}
+.instagram:active{
+  color:#6e1f66
+}
+a:hover{
+  color:#4066A5;
+}
+}
+
+@media only screen and (min-width: 769px){ 
+.mobilenav, .mobilefocal{
+  display:none;
+}
+.App{
+  font-family: 'Montserrat', sans-serif;
+  font-size:12px;
+  display:flex;
+  min-height: 100vh;
+  min-width:100%;
+  position:reltaive;
+}
+.Newsletter{
+   align-content:center;
+   padding-top:150px;
+   padding-left:100px;
+}
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"] + span {
+  display: inline-block;
+  position: relative;
+  top: -1px;
+  width: 20px;
+  height: 20px;
+  margin: -1px 0px 0 0;
+  vertical-align: middle;
+  background: white left top no-repeat;
+  border: 1px solid #E3E3E4;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked + span {
+  background: #4066A5 -19px top no-repeat;
+}
+
+input[type="checkbox"] + span {
+  margin-right: 4px;
+}
+a{
+  color:#131821;
+  padding:5px;
+  padding-top: 50px;
+  display:inline-block;
+}
+
+.no{
+ margin-top:-100px;
+ margin-bottom:30px;
+}
+.checkmark{
+  display: inline-block;
+  transform: rotate(45deg);
+  margin-left:6px;
+  height: 6px;
+  width: 5px;
+  border-bottom: 2px solid #e3e3e4;
+  border-right: 2px solid #e3e3e4;
+}
+.nav{
+  white-space: nowrap;
+  position:relative;
+}
+.sub{
+  margin-bottom:20px;
+  font-size:30px;
+}
+.error{
+  color:red;
+  top:60px;
+  position:relative;
+}
+input.email,input.email:focus{
+  left:5%;
+  border-left:3px solid #4066A5;
+  border-right: 1px solid #E3D3E4;
+  border-top: 1px solid #E3D3E4;
+  border-bottom: 1px solid #E3D3E4;
+  margin-bottom:20px;
+  margin-right:20px;
+  margin-top:20px;
+  height:50px;
+  width:445px;
+  position:absolute;
+}
+
+.email:hover{
+  left:5%;
+  border-left:3px solid #4066A5;
+  border-right: 1px solid #4066A5;
+  border-top: 1px solid #4066A5;
+  border-bottom: 1px solid #4066A5;
+  margin-bottom:20px;
+  margin-right:20px;
+  margin-top:20px;
+  height:50px;
+  width:445px;
+  position:absolute;
+}
+.arrow:hover{
+  color:#4066A5;
+}
+.arrow{
+  color:#E3D3E4
+}
+.submit{
+  border-left:1px solid #E3D3E4;
+  border-right: 1px solid #E3D3E4;
+  border-top: 1px solid #E3D3E4;
+  border-bottom: 1px solid #E3D3E4;
+  height:54px;
+  width:50px;
+  position:absolute;
+  margin-left:428px;
+  margin-top:20px;
+}
+form{
+  padding-bottom:100px;
+}
+.flex{
+  display:flex;
+  flex-direction: row;
+  justify-content:stretch;
+}
+
+.youtube,.twitter,.facebook,.instagram{
+  width:20px;
+  height:20px;
+  padding:10px;
+  color:#6A707B;
+}
+.icon{
+  text-align:center;
+  padding-right:100px;
+}
+/*socials color when mouse on button */
+.youtube:hover{
+  color:#ff0000
+}
+.twitter:hover{
+  color:#55acee
+}
+.facebook:hover{
+  color:#3b5998
+}
+.instagram:hover{
+  color:#c135b4
+}
+/*socials color when pressed */
+.youtube:active{
+  color:#800101;
+}
+.twitter:active{
+  color:#336b96
+}
+.facebook:active{
+  color:#23355c
+}
+.instagram:active{
+  color:#6e1f66
+}
+a:hover{
+  color:#4066A5;
+}
+.Focal{
+  padding-right:200px;
+  padding-left:100px;
+  text-decoration:none;
+}
+
+.right{
+  background-image:url("Focal.jpg");
+  width:75%;
+  height:auto;
+  background-repeat:no-repeat;
+}
+
+.left{
+  max-width:40%;
+  height:100%;
+  min-height:100%;
+}
+
+.checkerror{
+  position:absolute;
+  color:red;
+  top:505px;
+}
+.focal{
+  width:50px;
+  height:50px;
+  padding-top:30px;
+  padding-left:50px;
+  position:absolute;
+}
+
+.email.invalid {
+  left:5%;
+  border-left:3px solid red;
+  border-right: 1px solid red;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  margin-bottom:20px;
+  margin-right:20px;
+  margin-top:20px;
+  height:50px;
+  width:445px;
+  position:absolute;
+}
+}

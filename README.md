@@ -1,4 +1,5 @@
 Simple Newsletter sign-up site
+Made as a submission for internship test
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
